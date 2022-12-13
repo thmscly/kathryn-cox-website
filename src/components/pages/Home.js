@@ -5,11 +5,11 @@ import MainPic from '../../images/MainPic.jpg'
 function Home() {
     return (
         <div className='container mx-auto content-center text-slate-600 divide-y min-h-screen font-italiana'>
-            <div className='text-center text-slate-700 text-2xl p-6'>
+            <div className='text-center text-slate-700 text-3xl p-6'>
                 <h1>Retail Market Research just for you.</h1>
             </div>
             <img className='mx-auto h-auto w-2/3 pb-3' src={MainPic} alt="" />
-            <div className="grid grid-cols-1 text-center divide-x text-xl">
+            <div className="grid grid-cols-1 text-center divide-y text-xl">
                 <div className='p-6'>
                     <h2 className='font-bold'>Consultation</h2>
                     <p>Seasoned insight into Retail Market trends.</p>
