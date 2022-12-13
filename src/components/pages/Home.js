@@ -4,7 +4,7 @@ import MainPic from '../../images/MainPic.jpg'
 
 function Home() {
     return (
-        <div className='container mx-auto content-center text-slate-600 divide-y min-h-screen font-italiana'>
+        <div className='container mx-auto content-center text-slate-600 divide-y min-h-screen font-italiana min-w-screen'>
             <div className='text-center text-slate-700 text-2xl sm:text-3xl p-6'>
                 <h1>Retail Market Research just for you.</h1>
             </div>

@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Contact() {
     return (
-        <div className="grid grid-cols-3 gap-1 text-center h-screen text-slate-800 font-italiana text-xl mt-20">
+        <div className="grid grid-cols-3 gap-1 text-center h-screen text-slate-800 font-italiana text-xl mt-20 w-screen">
             <div className='m-3'>
                 <h2 className='font-bold'>Email</h2>
                 <p>email@email.com</p>
