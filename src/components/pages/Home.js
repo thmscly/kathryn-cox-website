@@ -1,12 +1,10 @@
 import React from 'react'
 import GirlFashion from '../../images/GirlFashion.jpg'
 import MainPic from '../../images/MainPic.jpg'
-import NavBar from '../NavBar'
 
 function Home() {
     return (
         <div className='container mx-auto content-center text-slate-600 divide-y min-h-screen font-italiana'>
-            <NavBar />
             <div className='text-center text-slate-700 text-2xl p-4'>
                 <h1>Retail Market Research just for you.</h1>
             </div>
