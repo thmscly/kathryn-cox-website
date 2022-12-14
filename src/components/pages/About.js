@@ -1,5 +1,5 @@
 import React from 'react'
-import GirlFashion from '../../images/GirlFashion.jpg'
+import GirlFashion from 'images/GirlFashion.jpg'
 
 function About() {
     return (
