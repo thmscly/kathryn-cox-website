@@ -1,6 +1,6 @@
 import React from 'react'
-import GirlFashion from '../../images/GirlFashion.jpg'
-import MainPic from '../../images/MainPic.jpg'
+import GirlFashion from 'images/GirlFashion.jpg'
+import MainPic from 'images/MainPic.jpg'
 
 function Home() {
     return (
