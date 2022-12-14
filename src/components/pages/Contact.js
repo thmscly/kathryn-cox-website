@@ -3,7 +3,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-function Contact() {
+export default function Contact() {
     return (
         <div className="grid grid-cols-3 gap-1 text-center h-screen text-slate-800 font-italiana text-xl mt-20 w-screen">
             <div className='m-3'>
@@ -24,5 +24,3 @@ function Contact() {
         </div>
     )
 }
-
-export default Contact

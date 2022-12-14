@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NavBar() {
+export default function NavBar() {
     return (
         <div className="sticky top-0 bg-slate-100 h-24 w-screen">
             <div className=' grid grid-flow-col items-center gap-5 text-center text-slate-700 font-italiana h-full'>
@@ -23,5 +23,3 @@ function NavBar() {
         </div>
     )
 }
-
-export default NavBar

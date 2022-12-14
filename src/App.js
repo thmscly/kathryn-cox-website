@@ -7,7 +7,7 @@ import Services from 'components/pages/Services';
 import Contact from 'components/pages/Contact';
 import Footer from 'components/Footer';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className='App text-slate-700 font-italiana'>
@@ -25,5 +25,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

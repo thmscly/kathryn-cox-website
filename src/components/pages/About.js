@@ -1,7 +1,7 @@
 import React from 'react'
 import GirlFashion from 'images/GirlFashion.jpg'
 
-function About() {
+export default function About() {
     return (
         <div className='sm:m-28 sm:mt-12 m-5 mt-2 text-slate-800 font-italiana text-xl'>
             <h1 className='text-4xl text-center mb-5'>Katie DeVault</h1>
@@ -13,5 +13,3 @@ function About() {
         </div>
     )
 }
-
-export default About
