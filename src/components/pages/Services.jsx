@@ -13,7 +13,7 @@ function Services() {
     </div>
   );
 }
-
+//props are in curly brackets because they are destructuring an object
 function ServiceBlock({ title, text }) {
   return (
     <div className="p-6">
