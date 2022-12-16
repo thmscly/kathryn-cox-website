@@ -17,7 +17,7 @@ function Services() {
 function ServiceBlock({ title, text }) {
   return (
     <div className="p-6">
-      <h2 className="font-bold">{title}</h2>
+      <h2 className="font-bold text-2xl">{title}</h2>
       <p>{text}</p>
     </div>
   );
