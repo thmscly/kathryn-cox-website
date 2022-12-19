@@ -9,7 +9,7 @@ export default function Home() {
         <h1>Retail Market Research just for you.</h1>
       </div>
       <img className="mx-auto h-auto w-2/3 pb-3" src={MainPic} alt="" />
-      <div className="grid grid-cols-1 text-center divide-y">
+      <div className="grid grid-cols-1 justify-content-center text-center divide-y">
         {serviceList.map((service) => (
           <ServiceBlockHome
             title={service.title}
