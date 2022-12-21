@@ -11,6 +11,7 @@ function Services() {
             title={service.title}
             text={service.text}
             key={service.id}
+            img={service.img}
           />
         ))}
       </div>
@@ -18,10 +19,11 @@ function Services() {
   );
 }
 //props are in curly brackets because they are destructuring an object
-function ServiceBlock({ title, text, shortDesc }) {
+function ServiceBlock({ title, text, img }) {
   return (
     <div className="p-6">
-      <h2 className="font-bold text-2xl">{title}</h2>
+      <h2 className="font-bold text-2xl p-3">{title}</h2>
+      <img src={img} alt="" className="float-left w-1/4" />
       <p>{text}</p>
     </div>
   );
