@@ -9,6 +9,7 @@ module.exports = {
         'tangerine': ["Tangerine", 'serif'],
         'italiana': ["Italiana", "serif"],
       },
+
     },
   },
   plugins: [],

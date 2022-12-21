@@ -14,13 +14,15 @@ export const NavList = [
         "title": "Katie DeVault",
         "link": "/",
         "css": {
-            "padding": "0.5rem",
-            "fontSize": "3.75rem",
-            "lineHeight": "2rem",
-            "textAlign": "center",
-            "dropShadow": "drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08))",
-            "fontFamily": "tangerine",
-            "@media only screen and (maxWidth: 600px)": { "fontSize": "1.5rem" }
+            padding: "0.5rem",
+            fontSize: "3.75rem",
+            lineHeight: "2rem",
+            textAlign: "center",
+            dropShadow: "drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08))",
+            fontFamily: "tangerine",
+            "@media (max-width: 200px)": {
+                "fontSize": '1.5rem'
+            }
         }
     },
     {
