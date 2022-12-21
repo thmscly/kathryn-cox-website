@@ -3,7 +3,7 @@ import { serviceList } from "data/ServiceList";
 
 function Services() {
   return (
-    <div className="m-28 mt-12 text-slate-800 font-italiana text-xl">
+    <div className="sm:m-28 sm:mt-12 text-slate-800 font-italiana text-xl">
       <h1 className="text-4xl text-center mb-5">What I Do</h1>
       <div className="grid grid-cols-1 text-center divide-y">
         {serviceList.map((service) => (

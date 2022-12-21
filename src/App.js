@@ -7,9 +7,9 @@ import Routing from 'components/Routing';
 export default function App() {
   return (
     <Router>
-      <div className='App text-slate-700 font-italiana'>
+      <div className='App text-slate-700 font-italiana min-w-screen'>
         <NavBar />
-        <div className='content'>
+        <div>
           <Routing />
         </div>
         <Footer />
