@@ -3,11 +3,11 @@ import GirlFashion from "images/GirlFashion.jpg";
 
 export default function About() {
   return (
-    <div className="sm:m-28 sm:mt-12 m-5 mt-2 text-slate-800 font-italiana text-xl">
+    <div className="sm:m-28 sm:mt-12 m-5 text-slate-800 text-xl">
       <h1 className="text-4xl text-center mb-5">Katie DeVault</h1>
-      <div className="grid grid-cols-5 content-center">
+      <div className="sm:grid grid-cols-5 content-center">
         <img
-          className="w-full h-auto float-left col-span-2"
+          className="w-1/2 h-auto sm:w-full float-left col-span-2"
           src={GirlFashion}
           alt=""
         />
@@ -20,7 +20,8 @@ export default function About() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <p className="col-span-5 sm:m-8 m-3">
+        <br />
+        <p className="col-span-5 sm:m-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
