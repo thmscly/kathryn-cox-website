@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'tangerine': ["Tangerine", 'serif'],
-        'italiana': ["Italiana", "serif"],
+        'tangerine': ["Tangerine", 'cursive'],
+        'raleway': ["Raleway", "sans-serif"],
       },
     },
   },

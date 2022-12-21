@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="sticky top-0 bg-slate-100 h-24 w-screen">
+    <div className="sticky top-0 bg-slate-100 h-16 sm:h-24 w-screen">
       <div className=" grid grid-flow-col-dense items-center sm:gap-5 gap-1 text-center text-slate-700 font-italiana h-full">
         <div className="sm:text-xl">
           <a href="/about">About</a>

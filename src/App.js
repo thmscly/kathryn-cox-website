@@ -7,7 +7,7 @@ import Routing from 'components/Routing';
 export default function App() {
   return (
     <Router>
-      <div className='App text-slate-700 font-italiana min-w-screen content-center'>
+      <div className='App text-slate-700 font-raleway min-w-screen content-center'>
         <NavBar />
         <div>
           <Routing />
